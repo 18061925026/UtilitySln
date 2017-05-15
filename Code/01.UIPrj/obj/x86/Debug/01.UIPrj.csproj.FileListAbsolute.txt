@@ -1,0 +1,8 @@
+D:\02.Company Project\01.Source Code\03.LinaTech\Utility\System32\UIPrj.exe.config
+D:\02.Company Project\01.Source Code\03.LinaTech\Utility\System32\UIPrj.exe
+D:\02.Company Project\01.Source Code\03.LinaTech\Utility\System32\UIPrj.pdb
+D:\02.Company Project\01.Source Code\03.LinaTech\Utility\Code\01.UI\obj\x86\Debug\01.UIPrj.csprojResolveAssemblyReference.cache
+D:\02.Company Project\01.Source Code\03.LinaTech\Utility\Code\01.UI\obj\x86\Debug\UIPrj.Properties.Resources.resources
+D:\02.Company Project\01.Source Code\03.LinaTech\Utility\Code\01.UI\obj\x86\Debug\01.UIPrj.csproj.GenerateResource.Cache
+D:\02.Company Project\01.Source Code\03.LinaTech\Utility\Code\01.UI\obj\x86\Debug\UIPrj.exe
+D:\02.Company Project\01.Source Code\03.LinaTech\Utility\Code\01.UI\obj\x86\Debug\UIPrj.pdb

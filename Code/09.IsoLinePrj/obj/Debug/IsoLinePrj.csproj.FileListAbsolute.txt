@@ -1,0 +1,5 @@
+D:\02.Company Project\01.Source Code\03.LinaTech\IsoLine\Code\IsoLinePrj\bin\Debug\IsoLinePrj.dll
+D:\02.Company Project\01.Source Code\03.LinaTech\IsoLine\Code\IsoLinePrj\bin\Debug\IsoLinePrj.pdb
+D:\02.Company Project\01.Source Code\03.LinaTech\IsoLine\Code\IsoLinePrj\obj\Debug\IsoLinePrj.csprojResolveAssemblyReference.cache
+D:\02.Company Project\01.Source Code\03.LinaTech\IsoLine\Code\IsoLinePrj\obj\Debug\IsoLinePrj.dll
+D:\02.Company Project\01.Source Code\03.LinaTech\IsoLine\Code\IsoLinePrj\obj\Debug\IsoLinePrj.pdb

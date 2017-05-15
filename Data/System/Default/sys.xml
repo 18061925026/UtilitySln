@@ -1,0 +1,64 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+		  <xs:element name="UserManage">
+            <xs:complexType>
+              <xs:attribute name="Level" type="xs:string"/>
+              <xs:attribute name="Role" type="xs:string"/>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ROW">
+            <xs:complexType>
+              <xs:attribute name="Option" type="xs:string"/>
+              <xs:attribute name="Value" type="xs:string"/>
+              <xs:attribute name="Default_Value" type="xs:string"/>
+              <xs:attribute name="Details" type="xs:string"/>
+              <xs:attribute name="Module" type="xs:string"/>
+              <xs:attribute name="Type" type="xs:string"/>
+              <xs:attribute name="Range" type="xs:string"/>
+              <xs:attribute name="UserLevel" type="xs:string"/>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <UserManage Level="1" Role="SuperAdministrators"/>
+  <UserManage Level="2" Role="Administrators"/>
+  <UserManage Level="3" Role="Doctor,Physicist"/>
+  
+  <ROW Option="MLCSetupAngle" Value="0" Details="MLC setup angle(default:0, Unit:degree)" Module="Clinic" Type="NUM" Range="" UserLevel="1"/>
+  <ROW Option="CouchKickControllerVersion" Value="4" Details="Assign CouchKick Controller Version" Module="Clinic" Type="NUM" Range="" UserLevel="1"/>
+  <ROW Option="SaveRVImagetoTest" Value="F" Details="Whether save RV Image(default directory (D:\RVImages\))(default:F)" Module="Clinic" Type="BOOL" Range="" UserLevel="1"/>
+  <ROW Option="SaveRVCouchPostoTest" Value="F" Details="Whether save Couch Position(default:F);T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="1"/>
+  <ROW Option="WhetherDisplaySQLServers" Value="F" Details="Whether display SQL server name in server login form;T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="1"/>
+  <ROW Option="MLCStepValue" Value="4.80" Details="MLC step value(default:4.80, Unit:mm)" Module="Clinic" Type="NUM" Range="" UserLevel="1"/>
+  <ROW Option="RxNameIGRT" Value="IGRT" Details="Rx name used for IGRT(defualt:IGRT)" Module="Clinic" Type="OTHER" Range="" UserLevel="1"/>
+  
+  <ROW Option="CouchLatReverseBeam" Value="T" Details="Reverse CouchLat value(default:T);T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="2"/>
+  <ROW Option="CouchLngReverseBeam" Value="F" Details="Reverse CouchLng value(default:F);T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="2"/>
+  <ROW Option="CouchVrtReverseBeam" Value="T" Details="Reverse CouchVrt value(default:T);T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="2"/>
+  <ROW Option="VerifyOffsetReverseX" Value="F" Details="Reverse VerifyOffset X when using verify offset in clinic(default:F);T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="2"/>
+  <ROW Option="VerifyOffsetReverseY" Value="F" Details="Reverse VerifyOffset Y when using verify offset in clinic(default:F);T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="2"/>
+  <ROW Option="VerifyOffsetReverseZ" Value="F" Details="Reverse VerifyOffset Z when using verify offset in clinic(default:F);T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="2"/>
+  <ROW Option="AcceptedRemaindMU" Value="0" Details="Accepted remain MU when complete treating(default:0)" Module="Clinic" Type="NUM" Range="" UserLevel="2"/>
+  <ROW Option="IsScheduleDefaultAll" Value="F" Details="Whether defualt select all patients in patient schedule(default:F);T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="2"/>
+  <ROW Option="WhetherConsiderICK" Value="T" Details="Whether consider ICK(default:T);T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="2"/>
+  <ROW Option="WhetherConsiderMLC" Value="T" Details="Whether consider MLC(default:T);T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="2"/>
+  <ROW Option="WhetherConsiderIVS" Value="T" Details="Whether consider IVS(default:T);T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="2"/>
+  <ROW Option="WhetherConsiderRV" Value="T" Details="Whether consider RV(default:T);T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="2"/>
+  <ROW Option="WhetherConsiderRVInterLock" Value="F" Details="Whether consider RV interlock value while treating(default:F);T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="2"/>
+  <ROW Option="WhetherShowModifyCouchButtons" Value="F" Details="Whether show 'ModifyCouch' buttons in Clinic(default:F);T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="2"/>
+  <ROW Option="ShowBPS" Value="T" Details="Whether show BPS in capture(default:T);T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="2"/>
+  <ROW Option="JawXLimit_cm" Value="12" Details="The limit of jaw X(default:12, Unit:cm)" Module="Clinic" Type="NUM" Range="" UserLevel="2"/>
+  <ROW Option="JawYLimit_cm" Value="12" Details="The limit of jaw Y(default:12, Unit:cm)" Module="Clinic" Type="NUM" Range="" UserLevel="2"/>
+  <ROW Option="TolerateBeamGantry" Value="1" Details="The tolerate of Beam Gantry in RV detect(default:1, Unit:degree)" Module="Clinic" Type="NUM" Range="" UserLevel="2"/>
+  <ROW Option="WhetherUseIEC" Value="T" Details="Display jaw by using IEC or not(default:T);T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="2"/>
+  <ROW Option="TolerateJaw" Value="0.1" Details="The tolerate of jaw in RV detect(default:0.1, Unit:cm)" Module="Clinic" Type="NUM" Range="" UserLevel="2"/>
+  <ROW Option="CanTreatWhenMUIsZero" Value="F" Details="Whether the beam can be treated when its MU equals zero(default:F);T -- True; F -- False" Module="Clinic" Type="BOOL" Range="" UserLevel="2"/>
+  
+  <ROW Option="CopyUpdateDatabase" Value="T" Details="If or not Copy New Database When Update Old Database&#xD;&#xA;T -- Copy F -- Not copy" Module="Clinic" Type="BOOL" Range="" UserLevel="3" />
+</NewDataSet>
